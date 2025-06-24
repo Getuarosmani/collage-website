@@ -1,0 +1,27 @@
+.video-player{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #3a48c7e8;
+    backdrop-filter: blur(6px);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.video-player video{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    border: solid 3px #fff;
+    border-radius: 8px;
+}
+
+.hide{
+    display: none;
+    top: 100px;
+}
